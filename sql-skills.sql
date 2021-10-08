@@ -49,3 +49,25 @@ SELECT al.title, ar.name
 FROM album al
 JOIN artist ar ON ar.artist_id = al.artist_id;
 
+--EXTRA CREDIT
+
+--Artist Table
+
+SELECT * FROM artist ORDER BY name DESC LIMIT 10
+
+SELECT * FROM artist WHERE name LIKE 'Black%'
+
+SELECT * FROM artist WHERE name LIKE '%Black%'
+
+--Employee Table
+
+SELECT birth_date FROM employee ORDER BY birth_date DESC LIMIT 1
+
+SELECT birth_date FROM employee ORDER BY birth_date ASC LIMIT 1
+
+--Invoice Table
+
+
+
+--More Join Queries
+
